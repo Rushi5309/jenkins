@@ -10,8 +10,8 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git branch: 'master',
-                    url: 'https://github.com/cjcnkolhe/B53_springbootjavaapp_docker_maven_jenkins.git'
+                git branch: 'main',
+                    url: 'https://github.com/Rushi5309/jenkins.git'
             }
         }
 
